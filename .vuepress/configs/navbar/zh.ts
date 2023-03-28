@@ -6,8 +6,8 @@ export const navbarZh: NavbarConfig = [
         link: 'https://norunpig.github.io/',
     },
     {
-        text: '博客',
-        link: '/zh/',
+        text: '导航页',
+        link: '/',
     },
     {
         text: '学习笔记',
@@ -18,7 +18,7 @@ export const navbarZh: NavbarConfig = [
             },
             {
                 text: 'RXJS',
-                link: '/zh/docs/RXJS/b.md'
+                link: '/zh/docs/RXJS/1.RxJS概述.md'
             }
         ],
     },

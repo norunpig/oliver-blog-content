@@ -10,12 +10,12 @@ export default {
 	locales: {
 		// 键名是该语言所属的子路径
 		// 作为特例，默认语言可以使用 '/' 作为其路径。
-		'/': {
+		'/en/': {
 			lang: 'en-US',
 			title: 'Oliver',
 			description: 'Oliver',
 		},
-		'/zh/': {
+		'/': {
 			lang: 'zh-CN',
 			title: 'Oliver',
 			description: 'Oliver',
@@ -34,7 +34,7 @@ export default {
 			 * As the default locale of @vuepress/theme-default is English,
 			 * we don't need to set all of the locale fields
 			 */
-			'/': {
+			'/en/': {
 				// navbar
 				navbar: navbarEn,
 				// sidebar
@@ -46,7 +46,7 @@ export default {
 			/**
 			 * Chinese locale config
 			 */
-			'/zh/': {
+			'/': {
 				// navbar
 				navbar: navbarZh,
 				selectLanguageName: '简体中文',

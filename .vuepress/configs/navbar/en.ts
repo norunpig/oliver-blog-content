@@ -6,19 +6,19 @@ export const navbarEn: NavbarConfig = [
         link: 'https://norunpig.github.io/',
     },
     {
-        text: 'blog',
-        link: '/',
+        text: 'navigation page',
+        link: '/en/',
     },
     {
-        text: '√',
+        text: 'study notes',
         children: [
             {
                 text: 'nodes notes',
-                link: '/docs/node/1.http模块.md'
+                link: '/en/docs/node/1.http模块.md'
             },
             {
                 text: 'RXJS',
-                link: '/docs/RXJS/1.RxJS概述.md'
+                link: '/en/docs/RXJS/1.RxJS概述.md'
             }
         ],
     },
@@ -27,11 +27,11 @@ export const navbarEn: NavbarConfig = [
         children: [
             {
                 text: 'bilibili',
-                link: '/otherPage/a.md'
+                link: '/en/otherPage/a.md'
             },
             {
                 text: 'csdn',
-                link: '/otherPage/b.md'
+                link: '/en/otherPage/b.md'
             }
         ]
     }

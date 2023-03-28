@@ -1,25 +1,33 @@
 import type { SidebarConfig } from '@vuepress/theme-default'
 
 export const sidebarEn: SidebarConfig = {
-    '/': [],
-    '/otherPage/': [
+    '/en/': [],
+    '/en/otherPage/': [
         {
             text: 'Reference',
             collapsible: true,
-            children: ['/otherPage/a.md','/otherPage/b.md'],
+            children: ['/en/otherPage/a.md','/en/otherPage/b.md'],
         },
     ],
-    '/docs/node/': [
+    '/en/docs/node/': [
         {
             text: 'node notes',
-            collapsible: true,
             children: [
-                '/docs/node/1.http模块.md',
-                '/docs/node/2.模块化.md',
-                '/docs/node/3.npm与包.md',
-                '/docs/node/4.模块的加载机制.md',
-                '/docs/node/5.Express.md',
-                '/docs/node/6.编写接口.md'
+                '/en/docs/node/1.http模块.md',
+                '/en/docs/node/2.模块化.md',
+                '/en/docs/node/3.npm与包.md',
+                '/en/docs/node/4.模块的加载机制.md',
+                '/en/docs/node/5.Express.md',
+                '/en/docs/node/6.编写接口.md'
+            ],
+        },
+    ],
+    '/en/docs/RXJS/': [
+        {
+            text: 'RXJS',
+            children: [
+                '/en/docs/RXJS/1.RxJS概述.md',
+                '/en/docs/RXJS/2.RxJS安装说明.md'
             ],
         },
     ],
