@@ -31,4 +31,16 @@ export const sidebarEn: SidebarConfig = {
             ],
         },
     ],
+    '/en/docs/gulp/': [
+        {
+            text: 'gulp学习',
+            // collapsible: true,
+            children: [
+                '/en/docs/gulp/什么是gulp.md',
+                '/en/docs/gulp/创建任务task.md',
+                '/en/docs/gulp/处理文件.md',
+                '/en/docs/gulp/异步执行.md'
+            ],
+        },
+    ],
 }

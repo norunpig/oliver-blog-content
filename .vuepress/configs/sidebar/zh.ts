@@ -35,4 +35,16 @@ export const sidebarZh: SidebarConfig = {
             ],
         },
     ],
+    '/zh/docs/gulp/': [
+        {
+            text: 'gulp学习',
+            // collapsible: true,
+            children: [
+                '/zh/docs/gulp/什么是gulp.md',
+                '/zh/docs/gulp/创建任务task.md',
+                '/zh/docs/gulp/处理文件.md',
+                '/zh/docs/gulp/异步执行.md'
+            ],
+        },
+    ],
 }

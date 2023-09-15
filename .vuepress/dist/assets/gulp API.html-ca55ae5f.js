@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5cde9eda","path":"/en/docs/gulp/gulp%20API.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null},"filePathRelative":"en/docs/gulp/gulp API.md"}');export{e as data};

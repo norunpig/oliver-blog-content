@@ -24,7 +24,7 @@ export default {
 	theme: defaultTheme({
 		logo: '/images/logo.png',
 		repo: 'https://github.com/norunpig/oliver-blog-content',
-		docsDir: 'oliver-blog-content',//
+		docsDir: '',//
 		contributors: false,
 		// theme-level locales config
 		locales: {

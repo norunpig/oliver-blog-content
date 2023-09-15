@@ -19,6 +19,10 @@ export const navbarZh: NavbarConfig = [
             {
                 text: 'RXJS',
                 link: '/zh/docs/RXJS/1.RxJS概述.md'
+            },
+            {
+                text: 'gulp',
+                link: '/zh/docs/gulp/什么是gulp.md'
             }
         ],
     },
