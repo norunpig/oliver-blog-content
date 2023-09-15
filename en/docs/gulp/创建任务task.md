@@ -1,4 +1,5 @@
-## 创建任务（task）
+# 创建任务（task）
+
 每个gulp任务（task）都是一个异步的JavaScript函数，此函数是一个可以接收callback作为参数的函数，或者是一个返回stream、promise、event emitter、child process或observable (后面会详细讲解) 类型值的函数。由于某些平台的限制而不支持异步任务，因此gulp还提供了一个漂亮替代品。
 
 ### 导出任务
